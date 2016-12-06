@@ -37,6 +37,7 @@ body.landing * {
 
 .mainSection p {
   font-family: 'PT Sans', sans-serif;
+  margin-top: 26px;
   font-size: 21px;
   line-height: 36px;
 }
@@ -61,8 +62,8 @@ body.landing * {
 
 .mainSection section {
   position: absolute;
-  top: 147px;
-  width: 580px;
+  top: 101px;
+  width: 482px;
 }
 
 .mainSection.left section {
@@ -70,7 +71,7 @@ body.landing * {
 }
 
 .mainSection.right section {
-  right: 160px;
+  right: 159px;
 }
 
 .mainSection section figure {
