@@ -1,0 +1,24 @@
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+}
+.logo{
+  display: block;
+  width: 0px;
+  height: 16px;
+background-image: url(../images/favicon.png);
+}
+
+.about {
+  line-height: 50px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .2);
+  transition: all .1s ease-out;
+}
+
+.about {
+  color: rgba(0, 0, 0, .4);
+}
