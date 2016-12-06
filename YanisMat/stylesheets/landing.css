@@ -56,8 +56,9 @@ body.landing * {
 }
 
 .mainSection.center section {
-  top: 182px;
+  top: 107px;
   width: 100%;
+  color: white;
 }
 
 .mainSection section {
@@ -72,6 +73,7 @@ body.landing * {
 
 .mainSection.right section {
   right: 159px;
+  color: white;
 }
 
 .mainSection section figure {
