@@ -47,16 +47,16 @@ body.landing * {
 }
 
 .mainSection.center h2 {
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 44px;
+  line-height: 56px;
 }
 
 .mainSection.center p {
-  margin-top: 27px;
+  margin-top: 26px;
 }
 
 .mainSection.center section {
-  top: 107px;
+  top: 101px;
   width: 100%;
   color: white;
 }
@@ -92,18 +92,21 @@ body.landing * {
 }
 
 .mainSection.center section nav {
-  margin-top: 70px;
+  margin-top: 0px;
   font-size: 0;
+  position: absolute;
 }
 
 .mainSection.center section nav a {
   margin: 0 10px;
 }
 
+
+
 .mainSection.center footer {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 132px;
+  right: 1px;
   width: 100%;
 }
 
@@ -116,30 +119,36 @@ body.landing * {
   background-size: cover;
 }
 
-#mockup1 {
-  top: 115px;
-  right: -116px;
-  width: 732px;
-  height: 660px;
-  background-image: url(../images/landing/landing-mockup-1.jpg);
+#mockup_1 {
+  top: 103px;
+  left: 160px;
+  width: 140px;
+  height: 317px;
+  background-image: url(../images/images/about.png);
 }
 
-#mockup2 {
-  top: 97px;
-  left: 100px;
-  width: 532px;
-  height: 670px;
-  background-image: url(../images/landing/landing-mockup-2.jpg);
+#mockup_2 {
+  top: 103px;
+  left: 506px;
+  width: 140px;
+  height: 475px;
+  background-image: url(../images/images/work.png);
 }
 
-#mockup3 {
-  top: 97px;
-  right: -732px;
-  width: 1348px;
-  height: 779px;
-  border-radius: 5px;
-  background-image: url(../images/landing/landing-mockup-3.jpg);
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+#mockup_3 {
+  top: 103px;
+  right: 967px;
+  width: 140px;
+  height: 403px;
+  background-image: url(../images/images/works.png);
+}
+
+#mockup_4 {
+  top: 249px;
+  right: 37px;
+  width: 769px;
+  height: 408px;
+  background-image: url(../images/images/screens.png);
 }
 
 @media screen and (max-width: 1460px) {
@@ -148,9 +157,24 @@ body.landing * {
   }
 }
 
-@media screen and (max-width: 1180px) {
+.button {
+  position: relative;
+  margin-top: 58px;
+  right: -560px;
+}
+
+.buttom {
+  margin-top: 15px;
+  font-size: 12px;
+  position: absolute;
+  top: 20px;
+  color: white;
+}
+
+
+/*@media screen and (max-width: 1180px) {
   body.landing.bg {
-    background-image: url(../images/index_mockup_ipad.png);
+    background-image: url(../images/mockups/1180 First Breakpoint.png);
   }
 
   .mainSection {
@@ -241,11 +265,11 @@ body.landing * {
     width: 960px;
     height: 555px;
   }
-}
+}*/
 
 @media screen and (max-width: 910px) {
   body.landing.bg {
-    background-image: url(../images/index_mockup_ipad_portrait.png);
+    background-image: url(../images/mockups/_1180.png);
   }
 
   .mainSection {
@@ -280,7 +304,7 @@ body.landing * {
 
   .mainSection.left section,
   .mainSection.right section {
-    left: 165px;
+    left: 162px;
   }
 
   .mainSection.center section {
@@ -323,21 +347,21 @@ body.landing * {
     font-size: 12px;
   }
 
-  #mockup1 {
+  #mockup_1 {
     top: 400px;
     right: -34px;
     width: 621px;
     height: 560px;
   }
 
-  #mockup2 {
+  #mockup_2 {
     top: 440px;
     left: 333px;
     width: 464px;
     height: 584px;
   }
 
-  #mockup3 {
+  #mockup_3 {
     top: auto;
     bottom: -100px;
     right: -30px;

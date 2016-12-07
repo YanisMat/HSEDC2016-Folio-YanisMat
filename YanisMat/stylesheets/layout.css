@@ -1,0 +1,31 @@
+/** {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  /*width: 100%;*/
+  min-width: 768px;
+ font-family: 'PT sans',sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+body.posts {
+  background-color: #FAFAFA;
+}*/
+
+body.posts .menubar,
+body.landing .menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0, .5);
+}
