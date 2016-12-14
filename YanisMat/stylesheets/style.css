@@ -1,8 +1,7 @@
-@import "menubar.css";
 @import "reset.css";
-@import "style.css";
-@import "typography.css";
-@import "landing.css";
 @import "social-likes_birman.css";
-@import "layout.css";
+
+@import "index.css";
+@import "menubar.css";
 @import "ui.css";
+@import "typography.css";
