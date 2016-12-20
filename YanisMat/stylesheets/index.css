@@ -3,7 +3,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/*
 body {
   background-image: url(../images/mockups/768.png);
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
   align-items: center;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   margin: 0px auto;
-}
+}*/
 
 h2, p {
   color: #323332;
@@ -51,11 +51,12 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  overflow: hidden;
   margin: 0 auto;
-  width: 1440px;
+  width: 1500px;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   background-color: white;
+  overflow: hidden;
+}
 
 }
 
