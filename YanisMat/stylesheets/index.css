@@ -1,17 +1,9 @@
-
 * {
   transition: all .3s ease;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-
-
-
-/*body {
-  background-image: url(../images/landing/-840.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}*/
 
 body {
   background-image: url(../images/mockups/1440.png);
@@ -20,7 +12,7 @@ body {
 }
 
 body {
-  max-width: 1493px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +56,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  width: 1500px;
+  width: 1440px;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   background-color: white;
   overflow: hidden;
@@ -216,87 +208,7 @@ margin-top: 42px;
 background-color: #50e3c2;
 }
 
-
-/*@media screen and (max-width: 1439px) {
-  h2 {
-    font-size: 30px;
-    line-height: 39px;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .mainSection {
-    width: 1117px;
-    height: 568px;
-  }
-
-  .mainSection section {
-    top: 137px;
-  }
-
-  .mainSection.right section {
-    right: 192px;
-  }
-
-  .mainSection section p {
-    margin-top: 18px;
-  }
-
-  #mockup1 {
-    height: 685px;
-    width: 376px;
-    right: 161px;
-    margin-top: 167px;
-  }
-
-  #mockup2 {
-    height: 227px;
-    width: 100px;
-  }
-
-  #mockup3 {
-    height: 283px;
-    width: 100px;
-  }
-
-  #mockup4 {
-    height: 339px;
-    width: 100px;
-  }
-
-  #mockup5 {
-    height: 287px;
-    width: 542px;
-    right: 74px;
-    top: 243px;
-  }
-
-  .mainSection.right>section.mockupBox {
-    width: 247px;
-    top: -250px;
-  }
-
-  footer {
-    bottom: 25px;
-  }
-
-  footer p {
-    font-size: 13px;
-  }
-
-  .large {
-    display: none;
-  }
-
-  .medium {
-    display: block;
-  }
-}*/
-
-/*@media screen and (max-width: 1440px) {*/
+@media screen and (max-width: 1440px) {
   .Wr {
     width: 100%;
   }
@@ -358,7 +270,7 @@ background-color: #50e3c2;
      top: 243px;
    }
 
-   .mainSection.right>section.mockupBox {
+   .mainSection.right section.mockupBox {
      width: 247px;
      top: -250px;
    }
@@ -384,12 +296,33 @@ background-color: #50e3c2;
      height: 3px;
      margin-top: 42px;
    }
-  }
 }
 @media screen and (max-width: 839px) {
-  .mainSection {
-     width: 860px;
-     height: 1024px;
+  h2 {
+     font-size: 30px;
+     line-height: 39px;
+   }
+
+   p {
+     font-size: 16px;
+     line-height: 26px;
+   }
+
+   .mainSection {
+     width: 859px;
+     height: 1023px;
+   }
+
+   .mainSection section {
+     top: 137px;
+   }
+
+   .mainSection.right section {
+     right: 192px;
+   }
+
+   .mainSection section p {
+     margin-top: 18px;
    }
 
    #mockup1 {
@@ -414,18 +347,36 @@ background-color: #50e3c2;
    }
 
    #mockup5 {
-     height: 403px;
-     width: 618px;
-     top: 506px;
+     height: 370px;
+     width: 697px;
+     top: 502px;
    }
 
-   .mainSection.right>section.mockupBox {
+   .mainSection.right section.mockupBox {
      width: 345px;
      top: 68px;
      left: 186px;
    }
 
-   .mainSection.center section {
-     top: 187px;
-  }
+  .mainSection.center section {
+    top: 187px;
+   }
+
+
+   /*footer {
+     bottom: 25px;
+   }
+
+   footer p {
+     font-size: 13px;
+   }*/
+
 }
+
+/*retina*/
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 {background-image: url(../images/about@2x.jpg);}
+  #mockup2 {background-image: url(../images/about@2x.jpg);}
+  #mockup3 {background-image: url(../images/works@2x.jpg);}
+  #mockup5 {background-image: url(../images/screens@2x.jpg);}
+  }
